@@ -1,0 +1,43 @@
+html, body {
+	margin: 0;
+    padding: 0;
+    background: #000;
+    height: 100%;
+    overflow: hidden;
+    color: #666666;
+}
+
+#content {
+    text-align: center;
+    padding: 200px;
+}
+
+#content canvas {
+    background: #000;
+}
+
+#stats { 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#stats div {
+text-align: left;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 9px;
+font-weight: bold;
+line-height: 15px;
+}
+
+#stats #fps, #stats #ms  { 
+    background: transparent !important;
+}
+
+#stats #fps #fpsText, #stats #ms #msText  { 
+    color: #666 !important;
+}
+
+#stats #fps #fpsGraph, #stats #ms #msGraph  { 
+    display: none;
+}
